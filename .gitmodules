@@ -1,0 +1,3 @@
+[submodule "0x01-shell_permissions/0x01-shell_permissions/zero_day"]
+	path = 0x01-shell_permissions/0x01-shell_permissions/zero_day
+	url = https://github.com/hanichoye/alx-system_engineering-devops.git
