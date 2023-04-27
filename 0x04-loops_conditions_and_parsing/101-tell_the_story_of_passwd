@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Tells a story based on the contents of the `/etc/passwd` file.
+
+input="/etc/passwd"
+while IFS=: read -r Ha1 Ha2 Ha3 Ha4 Ha5 Ha6 Ha7
+do
+	echo "The user $Ha1 is part of the $Ha4 gang, lives in $Ha6 and rides $Ha7. $Ha3's place is protected by the passcode $Ha2, more info about the user here: $Ha5"
+done < "$input"
