@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A SCRIPT THAT FIXES AN APACHE SERVER IN A CONRAINER
+
+service apache2 restart
