@@ -4,7 +4,6 @@
 # to install whatever tool you need, start and destroy as many containers
 # as you need to debug the issue. Then, write a Bash script with the
 # minimum number of commands to automate your fix
-
 rm /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx restart.
