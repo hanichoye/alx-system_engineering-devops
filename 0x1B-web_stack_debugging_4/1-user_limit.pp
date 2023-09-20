@@ -1,4 +1,4 @@
- Increase open file limit
+# Increase open file limit
 
 exec {'replace-1':
   provider => shell,
